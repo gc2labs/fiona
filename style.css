@@ -1,8 +1,17 @@
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+h1{color: #AF80DE;
+  font-size: 50pt;
+  text-shadow: 2px 5px 4px #3C0755;
+ }
+#dotted{  border-style: dotted;
+  color: #318F92;
+  width: 600px;
+  height: 150px
+ }
+.row{ 
+display: flex;
 }
+.column{
+  flex:33.33%;
+  padding:5px;
+}
+
